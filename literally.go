@@ -10,6 +10,16 @@ func BoolPtr(literal bool) *bool {
 	return &literal
 }
 
+//BytePtr takes byte literal and provides a pointer to it
+func BytePtr(literal byte) *byte {
+	return &literal
+}
+
+//RunePtr takes a float64 literal and provides a pointer to it
+func RunePtr(literal rune) *rune {
+	return &literal
+}
+
 //IntPtr takes a int literal and provides a pointer to it
 func IntPtr(literal int) *int {
 	return &literal
