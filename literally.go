@@ -59,3 +59,23 @@ func Uint32Ptr(literal uint32) *uint32 {
 func Uint64Ptr(literal uint64) *uint64 {
 	return &literal
 }
+
+//Float32Ptr takes a float32 literal and provides a pointer to it
+func Float32Ptr(literal float32) *float32 {
+	return &literal
+}
+
+//Float64Ptr takes a float64 literal and provides a pointer to it
+func Float64Ptr(literal float64) *float64 {
+	return &literal
+}
+
+//Complex64Ptr takes a complex64 literal and provides a pointer to it
+func Complex64Ptr(literal complex64) *complex64 {
+	return &literal
+}
+
+//Complex128Ptr takes a complex128 literal and provides a pointer to it
+func Complex128Ptr(literal complex128) *complex128 {
+	return &literal
+}
